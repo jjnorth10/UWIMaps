@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/locationImageFragment"
+    android:layout_width="@dimen/frag_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/rounded_background"
+    android:layout_alignRight="@id/map"
+    android:layout_marginTop="240dp"
+    android:layout_marginRight="@dimen/frag_margin">
+    
+    <TextView 
+        android:id="@+id/imageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="@dimen/frag_padding"
+        android:textColor="@color/darkBlue"
+        android:textSize="@dimen/title_text_size"/>
+    
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_height"
+        android:background="@color/grey" 
+        android:layout_marginLeft="@dimen/seperator_margin"
+        android:layout_marginRight="@dimen/seperator_margin"/>
+
+    <ImageView
+        android:id="@+id/locationImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:padding="@dimen/frag_padding"
+        android:src="@drawable/location_picture" />
+</LinearLayout>
+<!-- From: file:/C:/Users/Dell/asworkspace/AndroidStudioWorkspace/uWIMaps/src/main/res/layout-large/location_image_fragment.xml -->

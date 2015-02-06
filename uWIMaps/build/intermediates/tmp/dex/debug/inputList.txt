@@ -1,0 +1,8 @@
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\classes\debug
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-befba1efa330f4a8ec8089d4f3ef01bb5fe33818.jar
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\classes-cd12c6f800917091be6b52bab37f802dd0e1647a.jar
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-41bd0fe12a446f6c63ac6cf30179ffeb693fd43a.jar
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-35305452efbde07f36f58383f6dd87bff0809862.jar
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\classes-6e56f5b9f324260aa764b1279798ad62b4220fb6.jar
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\classes-d3bc39dd34152c9e080e3678eb212b1e58567b59.jar
+C:\Users\Dell\asworkspace\AndroidStudioWorkspace\uWIMaps\build\intermediates\pre-dexed\debug\classes-9808ebf1506c91e70eef10c552a53f03768ded69.jar

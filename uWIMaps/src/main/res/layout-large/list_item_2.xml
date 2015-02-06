@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:paddingLeft="10dp"
+    android:background="@color/white">
+    
+   
+    
+     <TextView
+        android:id="@+id/list_item_title_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@color/darkBlue"
+        android:textSize="20sp"
+        
+        />
+
+    <TextView
+        android:id="@+id/list_item_desc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/darkBlue"
+        android:textSize="16sp"
+        android:layout_alignLeft="@id/list_item_title_2"
+        android:layout_below="@id/list_item_title_2"
+        />
+    
+ 
+  
+   
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_action_delete_2"/>
+    
+     <Button
+        android:id="@+id/edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:focusable="false"
+        android:layout_toLeftOf="@id/delete"
+        android:background="@drawable/ic_action_edit_2"/>
+   
+    
+    
+
+</RelativeLayout>

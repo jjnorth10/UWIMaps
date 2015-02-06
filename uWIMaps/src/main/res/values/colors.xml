@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkBlue">#1E5778</color>
+    <color name="turquoise">#1DB9BB</color>
+    <color name="grey">#DDDEDE</color>
+    <color name="darkGrey">#00AA77</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#E17913</color>
+    <color name="darkOrange">#FE673E</color>
+    <color name="green">#00AA77</color>
+    <color name="red">#F90031</color>
+    <color name="blue">#367BA8</color>
+    <color name="translucent">#EDFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucentBlue">#551DB9BB</color>
+</resources>

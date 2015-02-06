@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/location_details_fragment"
+    android:layout_width="@dimen/frag_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/rounded_background"
+    android:layout_alignRight="@id/map"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="@dimen/frag_margin"
+   
+   
+   >
+
+    <TextView
+        android:id="@+id/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location" 
+        android:textSize="@dimen/title_text_size"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/darkBlue"
+        android:paddingLeft="@dimen/frag_padding"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_height"
+        android:background="@color/grey"
+        android:layout_marginLeft="@dimen/seperator_margin"
+        android:layout_marginRight="@dimen/seperator_margin"/>
+
+    <TextView
+        android:id="@+id/location_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="@dimen/desc_text_size" 
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/darkBlue"
+        android:paddingLeft="@dimen/frag_padding"/>
+    
+
+   
+    
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_height"
+        android:background="@color/turquoise"
+        
+        />
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+    	<Button
+        	android:id="@+id/getDirections"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:text="Get Direction"
+        	android:textColor="@color/turquoise"
+        	android:layout_gravity="center"
+        	android:background="@drawable/button_selector" />
+    
+     	<Button
+        	android:id="@+id/addCourse"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:text="Add Course"
+        	android:textColor="@color/turquoise"
+        	android:layout_gravity="center"
+        	android:background="@drawable/button_selector" />
+     
+     </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/circle_background" android:id="@+id/circle_background"/>
+    <item android:drawable="@drawable/lecture_room" android:id="@+id/lecture_room" />
+
+</layer-list>
+<!-- From: file:/C:/Users/Dell/asworkspace/AndroidStudioWorkspace/uWIMaps/src/main/res/drawable-xhdpi/lecture_room_2.xml -->
